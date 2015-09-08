@@ -1,0 +1,32 @@
+{
+  "name": "generator-ngmod",
+  "version": "1.0.0",
+  "description": "Generator for Angular.js module application that has react.js templates built in.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "katorak/generator-ngmod",
+  "author": {
+    "name": "Michael Webber",
+    "email": "mwebber@katorak.com",
+    "url": "https://github.com/katorak"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2",
+    "mkdirp": "^0.5.1",
+    "html-wiring": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
